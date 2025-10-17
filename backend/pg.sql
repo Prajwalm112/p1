@@ -52,3 +52,4 @@ CREATE TABLE payments (
     card_last4 VARCHAR(4),
     card_brand VARCHAR(20)
 );
+

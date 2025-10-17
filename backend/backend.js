@@ -537,5 +537,5 @@ app.post("/scrape", authenticate, async (req, res) => {
     }
   });
 
-  app.listen(PORT, () => console.log(`🚀 Backend running on http://localhost:${PORT}`));
+  app.listen(PORT, () => console.log(`🚀 Backend running on https://p1-vlkg.onrender.com/`));
 }
