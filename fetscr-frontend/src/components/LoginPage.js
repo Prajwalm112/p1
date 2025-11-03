@@ -4,7 +4,7 @@ import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 import Header from "../components/Header";
 import "./LoginPages.css";
 
-const SERVER =process.env.REACT_APP_API_URL || "http://localhost:5000";
+const SERVER =process.env.REACT_APP_API_URL || "https://p1-vlkg.onrender.com";
 
 
 // Captcha generator function

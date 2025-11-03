@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 import "./Signup.css";
 
-const SERVER = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const SERVER = process.env.REACT_APP_API_URL || "https://p1-vlkg.onrender.com";
 
 
 const SignUpPage = () => {

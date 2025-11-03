@@ -43,7 +43,7 @@ CREATE TABLE payments (
         'PhonePe',
         'Amazon Pay',
         'BHIM',
-        'Other'
+        'Other',
     )),
     upiid VARCHAR(100),
     queries INT DEFAULT 0,

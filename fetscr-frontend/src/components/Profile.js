@@ -25,7 +25,7 @@ export default function Profile() {
         const token = localStorage.getItem("fetscr_token");
         if (!token) return;
 
-        const res = await fetch("http://localhost:5000/getPlan", {
+        const res = await fetch("https://p1-vlkg.onrender.com/getPlan", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -71,7 +71,7 @@ export default function Profile() {
 
     try {
       const token = localStorage.getItem("fetscr_token");
-      const res = await fetch("http://localhost:5000/update-profile", {
+      const res = await fetch("https://p1-vlkg.onrender.com/update-profile", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

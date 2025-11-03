@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./plans.css";
 
-const SERVER =process.env.REACT_APP_API_URL || "http://localhost:5000";
+const SERVER =process.env.REACT_APP_API_URL || "https://p1-vlkg.onrender.com";
 
 const SubscriptionPlans = () => {
   const [customQueries, setCustomQueries] = useState(1);

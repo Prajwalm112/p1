@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./payment.css";
 
-const SERVER = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const SERVER = process.env.REACT_APP_API_URL || "https://p1-vlkg.onrender.com";
 
 const PaymentPage = () => {
   const { state } = useLocation();

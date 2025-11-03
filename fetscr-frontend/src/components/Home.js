@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
-const SERVER = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const SERVER = process.env.REACT_APP_API_URL || "https://p1-vlkg.onrender.com";
 
 
 export default function Home() {
